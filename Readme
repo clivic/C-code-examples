@@ -1,0 +1,14 @@
+These are the C++ code examples I wrote when I was learning C++.
+
+Categories:
+1. C++ tests and problem solving: These are the programs I wrote when I was learning C++, apart from the assignments. Some of them are exercises on a coding practice website.
+2. Course Assignments: These include the assignments I wrote for C++ and Data Structure courses. I impmlemented some of the C++ library classes to learn the concept as well.
+3. OpenGL, DirectX, OpenCV: These are the graphical programs I wrote in C++ using OpenGL/DirectX/OpenCV. The DirectX and OpenGL programs are course works.
+4. Programs: These are the practice programs I wrote when I was learning C++, including both graphical interface apps (Picture Manager), and console apps (Game -- Tic-Tac-Toe).
+
+// Please be advised:
+// (Nearly) All of the programs in this repository were written in VC6. So in order to run the exe files in the Debug folder, for example, the "Game -- Tic-Tac-Toe", you need "MSVCP120D.dll".
+
+Thanks.
+
+Clivic (Clarence Hann)
