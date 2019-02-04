@@ -1,0 +1,1 @@
+The implementation of some C++ library class by myself in order to learn the concepts.

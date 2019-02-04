@@ -1,0 +1,61 @@
+F:\Visual C++ programs\Hold And Attack 2.0\Hold And Attack 2.0\bin\Debug\Hold And Attack 2.0.exe.config
+F:\Visual C++ programs\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold And Attack 2.0.csprojResolveAssemblyReference.cache
+F:\Visual C++ programs\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold_And_Attack_2._0.FormUI.resources
+F:\Visual C++ programs\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold_And_Attack_2._0.FormPlay.resources
+F:\Visual C++ programs\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold_And_Attack_2._0.Properties.Resources.resources
+F:\Visual C++ programs\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold And Attack 2.0.csproj.GenerateResource.Cache
+F:\Visual C++ programs\Hold And Attack 2.0\Hold And Attack 2.0\bin\Debug\Hold And Attack 2.0.exe
+F:\Visual C++ programs\Hold And Attack 2.0\Hold And Attack 2.0\bin\Debug\Hold And Attack 2.0.pdb
+F:\Visual C++ programs\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold And Attack 2.0.exe
+F:\Visual C++ programs\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold And Attack 2.0.pdb
+F:\Visual C++ programs\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold_And_Attack_2._0.FormResult.resources
+H:\Hold And Attack 2.0\Hold And Attack 2.0\bin\Debug\Hold And Attack 2.0.exe.config
+H:\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold And Attack 2.0.exe
+H:\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold And Attack 2.0.pdb
+H:\Hold And Attack 2.0\Hold And Attack 2.0\bin\Debug\Hold And Attack 2.0.exe
+H:\Hold And Attack 2.0\Hold And Attack 2.0\bin\Debug\Hold And Attack 2.0.pdb
+H:\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold And Attack 2.0.csprojResolveAssemblyReference.cache
+H:\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold_And_Attack_2._0.FormUI.resources
+H:\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold_And_Attack_2._0.FormPlay.resources
+H:\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold_And_Attack_2._0.FormResult.resources
+H:\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold_And_Attack_2._0.Properties.Resources.resources
+H:\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold And Attack 2.0.csproj.GenerateResource.Cache
+I:\Hold And Attack 2.0\Hold And Attack 2.0\bin\Debug\Hold And Attack 2.0.exe.config
+I:\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold And Attack 2.0.exe
+I:\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold And Attack 2.0.pdb
+I:\Hold And Attack 2.0\Hold And Attack 2.0\bin\Debug\Hold And Attack 2.0.exe
+I:\Hold And Attack 2.0\Hold And Attack 2.0\bin\Debug\Hold And Attack 2.0.pdb
+I:\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold And Attack 2.0.csprojResolveAssemblyReference.cache
+I:\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold_And_Attack_2._0.FormUI.resources
+I:\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold_And_Attack_2._0.FormPlay.resources
+I:\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold_And_Attack_2._0.FormResult.resources
+I:\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold_And_Attack_2._0.Properties.Resources.resources
+I:\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold And Attack 2.0.csproj.GenerateResource.Cache
+C:\Users\不仙\Desktop\Hold And Attack 2.0\Hold And Attack 2.0\bin\Debug\Hold And Attack 2.0.exe.config
+C:\Users\不仙\Desktop\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold And Attack 2.0.exe
+C:\Users\不仙\Desktop\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold And Attack 2.0.pdb
+C:\Users\不仙\Desktop\Hold And Attack 2.0\Hold And Attack 2.0\bin\Debug\Hold And Attack 2.0.exe
+C:\Users\不仙\Desktop\Hold And Attack 2.0\Hold And Attack 2.0\bin\Debug\Hold And Attack 2.0.pdb
+C:\Users\不仙\Desktop\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold And Attack 2.0.csprojResolveAssemblyReference.cache
+C:\Users\不仙\Desktop\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold_And_Attack_2._0.FormUI.resources
+C:\Users\不仙\Desktop\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold_And_Attack_2._0.FormPlay.resources
+C:\Users\不仙\Desktop\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold_And_Attack_2._0.FormResult.resources
+C:\Users\不仙\Desktop\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold_And_Attack_2._0.Properties.Resources.resources
+C:\Users\不仙\Desktop\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold And Attack 2.0.csproj.GenerateResource.Cache
+C:\Users\不仙\Desktop\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold_And_Attack_2._0.OptionForm.resources
+F:\Visual C++ programs\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold_And_Attack_2._0.OptionForm.resources
+C:\Users\不仙\Desktop\新建文件夹\Hold And Attack 2.0\Hold And Attack 2.0\bin\Debug\Hold And Attack 2.0.exe.config
+C:\Users\不仙\Desktop\新建文件夹\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold And Attack 2.0.exe
+C:\Users\不仙\Desktop\新建文件夹\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold And Attack 2.0.pdb
+C:\Users\不仙\Desktop\新建文件夹\Hold And Attack 2.0\Hold And Attack 2.0\bin\Debug\Hold And Attack 2.0.exe
+C:\Users\不仙\Desktop\新建文件夹\Hold And Attack 2.0\Hold And Attack 2.0\bin\Debug\Hold And Attack 2.0.pdb
+C:\Users\不仙\Desktop\新建文件夹\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold And Attack 2.0.csprojResolveAssemblyReference.cache
+C:\Users\不仙\Desktop\新建文件夹\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold_And_Attack_2._0.AboutForm.resources
+C:\Users\不仙\Desktop\新建文件夹\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold_And_Attack_2._0.FormUI.resources
+C:\Users\不仙\Desktop\新建文件夹\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold_And_Attack_2._0.FormPlay.resources
+C:\Users\不仙\Desktop\新建文件夹\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold_And_Attack_2._0.FormResult.resources
+C:\Users\不仙\Desktop\新建文件夹\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold_And_Attack_2._0.OptionForm.resources
+C:\Users\不仙\Desktop\新建文件夹\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold_And_Attack_2._0.Properties.Resources.resources
+C:\Users\不仙\Desktop\新建文件夹\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold And Attack 2.0.csproj.GenerateResource.Cache
+F:\Visual C++ programs\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold_And_Attack_2._0.AboutForm.resources
+C:\Users\不仙\Desktop\Hold And Attack 2.0\Hold And Attack 2.0\obj\Debug\Hold_And_Attack_2._0.AboutForm.resources

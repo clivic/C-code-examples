@@ -1,0 +1,42 @@
+﻿生成启动时间为 2014/12/24 11:36:34。
+     1>项目“E:\VC++ projects\OpenGLM02\OpenGLM02\OpenGLM02.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\OpenGLM02.cpp
+         OpenGLM02.cpp
+       Link:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VC++ projects\OpenGLM02\Debug\OpenGLM02.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\VC++ projects\OpenGLM02\Debug\OpenGLM02.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VC++ projects\OpenGLM02\Debug\OpenGLM02.lib" /MACHINE:X86 Debug\OpenGLM02.obj
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 __imp__wglCreateContext@4，该符号在函数 "int __cdecl CreateGLWindow(char *,int,int,int,bool)" (?CreateGLWindow@@YAHPADHHH_N@Z) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 __imp__wglDeleteContext@4，该符号在函数 "void __cdecl KillGLWindow(void)" (?KillGLWindow@@YAXXZ) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 __imp__wglMakeCurrent@8，该符号在函数 "int __cdecl CreateGLWindow(char *,int,int,int,bool)" (?CreateGLWindow@@YAHPADHHH_N@Z) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 __imp__glBegin@4，该符号在函数 "int __cdecl DrawGLScene(void)" (?DrawGLScene@@YAHXZ) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 __imp__glBindTexture@8，该符号在函数 "int __cdecl DrawGLScene(void)" (?DrawGLScene@@YAHXZ) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 __imp__glBlendFunc@8，该符号在函数 "int __cdecl InitGL(void)" (?InitGL@@YAHXZ) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 __imp__glClear@4，该符号在函数 "int __cdecl DrawGLScene(void)" (?DrawGLScene@@YAHXZ) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 __imp__glClearColor@16，该符号在函数 "int __cdecl InitGL(void)" (?InitGL@@YAHXZ) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 __imp__glClearDepth@8，该符号在函数 "int __cdecl InitGL(void)" (?InitGL@@YAHXZ) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 __imp__glDepthFunc@4，该符号在函数 "int __cdecl InitGL(void)" (?InitGL@@YAHXZ) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 __imp__glDisable@4，该符号在函数 _WinMain@16 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 __imp__glEnable@4，该符号在函数 "int __cdecl InitGL(void)" (?InitGL@@YAHXZ) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 __imp__glEnd@0，该符号在函数 "int __cdecl DrawGLScene(void)" (?DrawGLScene@@YAHXZ) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 __imp__glGenTextures@8，该符号在函数 "int __cdecl LoadGLTextures(void)" (?LoadGLTextures@@YAHXZ) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 __imp__glHint@8，该符号在函数 "int __cdecl InitGL(void)" (?InitGL@@YAHXZ) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 __imp__glLoadIdentity@0，该符号在函数 "int __cdecl DrawGLScene(void)" (?DrawGLScene@@YAHXZ) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 __imp__glMatrixMode@4，该符号在函数 "void __cdecl ReSizeGLScene(int,int)" (?ReSizeGLScene@@YAXHH@Z) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 __imp__glNormal3f@12，该符号在函数 "int __cdecl DrawGLScene(void)" (?DrawGLScene@@YAHXZ) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 __imp__glRotatef@16，该符号在函数 "int __cdecl DrawGLScene(void)" (?DrawGLScene@@YAHXZ) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 __imp__glShadeModel@4，该符号在函数 "int __cdecl InitGL(void)" (?InitGL@@YAHXZ) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 __imp__glTexCoord2f@8，该符号在函数 "int __cdecl DrawGLScene(void)" (?DrawGLScene@@YAHXZ) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 __imp__glTexImage2D@36，该符号在函数 "int __cdecl LoadGLTextures(void)" (?LoadGLTextures@@YAHXZ) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 __imp__glTexParameteri@12，该符号在函数 "int __cdecl LoadGLTextures(void)" (?LoadGLTextures@@YAHXZ) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 __imp__glTranslatef@12，该符号在函数 "int __cdecl DrawGLScene(void)" (?DrawGLScene@@YAHXZ) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 __imp__glVertex3f@12，该符号在函数 "int __cdecl DrawGLScene(void)" (?DrawGLScene@@YAHXZ) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 __imp__glViewport@16，该符号在函数 "void __cdecl ReSizeGLScene(int,int)" (?ReSizeGLScene@@YAXHH@Z) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 _gluPerspective@32，该符号在函数 "void __cdecl ReSizeGLScene(int,int)" (?ReSizeGLScene@@YAXHH@Z) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 _gluBuild2DMipmaps@28，该符号在函数 "int __cdecl LoadGLTextures(void)" (?LoadGLTextures@@YAHXZ) 中被引用
+     1>OpenGLM02.obj : error LNK2019: 无法解析的外部符号 _auxDIBImageLoadA@4，该符号在函数 "struct _AUX_RGBImageRec * __cdecl LoadBMP(char *)" (?LoadBMP@@YAPAU_AUX_RGBImageRec@@PAD@Z) 中被引用
+     1>E:\VC++ projects\OpenGLM02\Debug\OpenGLM02.exe : fatal error LNK1120: 29 个无法解析的外部命令
+     1>已完成生成项目“E:\VC++ projects\OpenGLM02\OpenGLM02\OpenGLM02.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:04.75

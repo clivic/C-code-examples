@@ -1,0 +1,46 @@
+readthe code segment
+cotains generous problems,
+isn't it?
+while wecan avoid this.
+We believe it!
+The code segment 
+could certainly be read!
+
+
+	//No.2
+	cout << "No.2 " << endl << endl;
+
+	number = 1;
+	int recentlyNumber;       //different from number
+	int sum(0);               //sum of 1 to 10000
+	while (sum <= 10000)
+	{
+		sum = sum + number;
+		number++;
+	}
+
+	recentlyNumber = number - 1;
+	cout << "The sum is: " << sum << endl
+		 << "And the recently added number is : "
+		 << recentlyNumber << endl << endl;
+	
+	//No.3
+	cout << "No.3 " << endl << endl;
+	fin.open("indata.txt");
+	TestInput();
+	int score;
+	int average;
+	number = 1;
+	sum = 0;
+	fin >> score;
+	while (fin || number <= 20)
+	{
+		sum = sum + score;
+		fin >> score;
+		number++;
+	}
+	recentlyNumber = number - 1;
+	average = sum / recentlyNumber;
+	cout << "Their average number is: "
+		 << average << '.' << endl << endl;
+	fin.close();

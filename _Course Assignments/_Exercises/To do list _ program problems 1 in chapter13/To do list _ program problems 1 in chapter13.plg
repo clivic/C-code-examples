@@ -1,0 +1,80 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: To do list _ program problems 1 in chapter13 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSP8D51.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/To do list _ program problems 1 in chapter13.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Visual C++ programs\List ADT(some exercises in Chapter 13)\list.cpp"
+]
+Creating command line "cl.exe @C:\Users\Lenovo\AppData\Local\Temp\RSP8D51.tmp" 
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSP8D52.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/To do list _ program problems 1 in chapter13.pdb" /debug /machine:I386 /out:"Debug/To do list _ program problems 1 in chapter13.exe" /pdbtype:sept 
+".\Debug\list.obj"
+".\Debug\To_do list.obj"
+]
+Creating command line "link.exe @C:\Users\Lenovo\AppData\Local\Temp\RSP8D52.tmp"
+<h3>Output Window</h3>
+Compiling...
+list.cpp
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(19) : error C2653: 'List' : is not a class or namespace name
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(23) : error C2065: 'length' : undeclared identifier
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(24) : warning C4508: 'List' : function should return a value; 'void' return type assumed
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(28) : error C2653: 'List' : is not a class or namespace name
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(31) : error C2270: 'Isempty' : modifiers not allowed on nonmember functions
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(37) : error C2653: 'List' : is not a class or namespace name
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(40) : error C2270: 'Isfull' : modifiers not allowed on nonmember functions
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(41) : error C2065: 'MAX_LENGTH' : undeclared identifier
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(46) : error C2653: 'List' : is not a class or namespace name
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(49) : error C2270: 'Length' : modifiers not allowed on nonmember functions
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(55) : error C2653: 'List' : is not a class or namespace name
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(55) : error C2065: 'DataType' : undeclared identifier
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(55) : error C2146: syntax error : missing ')' before identifier 'item'
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(55) : error C2182: 'Insert' : illegal use of type 'void'
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(55) : error C2059: syntax error : ')'
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(61) : error C2143: syntax error : missing ';' before '{'
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(61) : error C2447: missing function header (old-style formal list?)
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(71) : error C2653: 'List' : is not a class or namespace name
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(71) : error C2146: syntax error : missing ')' before identifier 'item'
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(71) : error C2182: 'Delete' : illegal use of type 'void'
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(71) : error C2059: syntax error : ')'
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(78) : error C2143: syntax error : missing ';' before '{'
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(78) : error C2447: missing function header (old-style formal list?)
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(95) : error C2653: 'List' : is not a class or namespace name
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(95) : error C2146: syntax error : missing ')' before identifier 'item'
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(95) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(95) : error C2059: syntax error : ')'
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(99) : error C2143: syntax error : missing ';' before '{'
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(99) : error C2447: missing function header (old-style formal list?)
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(112) : error C2653: 'List' : is not a class or namespace name
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(115) : error C2146: syntax error : missing ';' before identifier 'temp'
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(115) : error C2065: 'temp' : undeclared identifier
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(128) : error C2065: 'data' : undeclared identifier
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(128) : error C2109: subscript requires array or pointer type
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(128) : error C2109: subscript requires array or pointer type
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(132) : error C2109: subscript requires array or pointer type
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(133) : error C2109: subscript requires array or pointer type
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(133) : error C2109: subscript requires array or pointer type
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(133) : error C2106: '=' : left operand must be l-value
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(134) : error C2109: subscript requires array or pointer type
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(134) : error C2106: '=' : left operand must be l-value
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(140) : error C2653: 'List' : is not a class or namespace name
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(143) : error C2065: 'currentPos' : undeclared identifier
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(148) : error C2653: 'List' : is not a class or namespace name
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(148) : error C2146: syntax error : missing ';' before identifier 'Next'
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(148) : error C2501: 'DataType' : missing storage-class or type specifiers
+d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(148) : fatal error C1004: unexpected end of file found
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+To do list _ program problems 1 in chapter13.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

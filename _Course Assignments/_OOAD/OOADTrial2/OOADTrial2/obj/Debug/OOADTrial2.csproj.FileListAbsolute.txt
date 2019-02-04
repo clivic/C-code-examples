@@ -1,0 +1,9 @@
+F:\Visual C++ programs\OOADTrial2\OOADTrial2\bin\Debug\OOADTrial2.exe.config
+F:\Visual C++ programs\OOADTrial2\OOADTrial2\obj\Debug\OOADTrial2.csprojResolveAssemblyReference.cache
+F:\Visual C++ programs\OOADTrial2\OOADTrial2\obj\Debug\OOADTrial2.Form1.resources
+F:\Visual C++ programs\OOADTrial2\OOADTrial2\obj\Debug\OOADTrial2.Properties.Resources.resources
+F:\Visual C++ programs\OOADTrial2\OOADTrial2\obj\Debug\OOADTrial2.csproj.GenerateResource.Cache
+F:\Visual C++ programs\OOADTrial2\OOADTrial2\bin\Debug\OOADTrial2.exe
+F:\Visual C++ programs\OOADTrial2\OOADTrial2\bin\Debug\OOADTrial2.pdb
+F:\Visual C++ programs\OOADTrial2\OOADTrial2\obj\Debug\OOADTrial2.exe
+F:\Visual C++ programs\OOADTrial2\OOADTrial2\obj\Debug\OOADTrial2.pdb

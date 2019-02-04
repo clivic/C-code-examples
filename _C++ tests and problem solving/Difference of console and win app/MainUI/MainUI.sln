@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{68F28DBF-DA32-477D-B22E-434D6D4D20FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MainUI", "MainUI", "{FFEC2416-79AC-43F3-BD0A-150E3D085A90}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MainUI", "MainUI.vcxproj", "{C6268487-2104-4CB2-9B25-CDE12C6E996B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6268487-2104-4CB2-9B25-CDE12C6E996B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C6268487-2104-4CB2-9B25-CDE12C6E996B}.Debug|Win32.Build.0 = Debug|Win32
+		{C6268487-2104-4CB2-9B25-CDE12C6E996B}.Release|Win32.ActiveCfg = Release|Win32
+		{C6268487-2104-4CB2-9B25-CDE12C6E996B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FFEC2416-79AC-43F3-BD0A-150E3D085A90} = {68F28DBF-DA32-477D-B22E-434D6D4D20FC}
+	EndGlobalSection
+EndGlobal

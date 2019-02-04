@@ -1,0 +1,9 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Expression.Form1.resources
+obj\Debug\Expression.Properties.Resources.resources
+obj\Debug\Expression.csproj.GenerateResource.Cache
+bin\Debug\Expression.exe
+bin\Debug\Expression.pdb
+bin\Debug\log4net.dll
+obj\Debug\Expression.exe
+obj\Debug\Expression.pdb

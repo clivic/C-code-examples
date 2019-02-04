@@ -1,0 +1,22 @@
+//******************************************************************
+// AllTypeSize program
+// This program can get the size of all data types 
+// in the computer which executes the program
+//******************************************************************
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    cout<<"float type size is: "<<sizeof(float)<<endl;       // float type
+    cout<<"double type size is: "<<sizeof(double)<<endl;     // double type
+    cout<<"long double type size is: "<<sizeof(long double)<<endl;  //longdouble type
+	cout<<"short type size is: "<<sizeof(short)<<endl;  //short type
+	cout<<"int type size is: "<<sizeof(int)<<endl;  //int type
+	cout<<"long type size is: "<<sizeof(long)<<endl;  //long type
+	cout<<"char type size is: "<<sizeof(char)<<endl;  //char type
+	cout<<"bool type size is: "<<sizeof(bool)<<endl;  //long type
+
+
+   return 0;
+} 

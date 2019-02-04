@@ -1,0 +1,17 @@
+//Original Hash with collideTime 89281, in length 30001 array.
+	int pos = 0;
+	for (int i = 0; keyWord[i] != 0; i++)
+		pos += keyWord[i];
+	return pos = (10000 * pos) % HASH_SIZE;
+
+//Original ELFHash with collideTime 435, in length 30001 array.
+	String keyWord = newEntry.GetKey();
+	unsigned long pos = 0, temp;
+	for (int i = 0; keyWord[i] != 0; i++)
+	{
+		pos = (pos << 4) + keyWord[i];
+		temp = pos & 0xF0000000L;
+		if (temp)	pos ^= temp >> 24;
+		pos &= ~temp;
+	}
+	return pos = pos % HASH_SIZE;

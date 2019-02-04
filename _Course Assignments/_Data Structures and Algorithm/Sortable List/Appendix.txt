@@ -1,0 +1,78 @@
+The implementation of MergeSort on the book:
+template <class List_entry>
+void MergeSort(SortableList<List_entry> &myList)
+//	Pre:	List_Entry should be comparable.
+//	Post:	The entries of the Sortable list have been rearranged so 
+//			that the keys in all the entries are sorted into 
+//			nondecreasing order.
+//	Note:	Using the mind of Divide and Conquer. 
+//	Uses:	DivideFrom, Combine and the contiguous List implementation of Chapter 6.
+{
+	SortableList <List_entry> secondList;
+	if (myList.Size() > 1)
+	{
+		DivideFrom(myList, secondList);
+		MergeSort(myList);
+		MergeSort(secondList);
+		Combine(myList, secondList);
+	}
+}
+
+template <class List_entry>
+void DivideFrom(SortableList<List_entry> &myList, SortableList<List_entry> &secondList)
+{
+	int mid = (myList.Size() - 1) / 2;			//left middle
+	int secondSize = myList.Size() - (mid + 1);	//middle belongs to myList
+	for (int i = 0; i < secondSize; i++)
+	{
+		List_entry x;
+		if (myList.Retrieve(mid + 1, x) == success)
+		{
+			secondList.Insert(i, x);
+			myList.Remove(mid + 1, x);
+		}
+	}
+}
+
+template <class List_entry>
+void Combine(SortableList<List_entry> &firstList, const SortableList<List_entry> &secondList)
+{
+	SortableList<List_entry> tmp;
+	int m = 0, n = 0, i = 0;
+
+	//merge into tmp
+	while (m < firstList.Size() && n < secondList.Size())
+	{
+		List_entry x, y;
+		firstList.Retrieve(m, x);
+		secondList.Retrieve(n, y);
+		if (x <= y)
+		{
+			tmp.Insert(i++, x);
+			m++;
+		}
+		else
+		{
+			tmp.Insert(i++, y);
+			n++;
+		}
+	}
+
+	//deal with remaining elements
+	while (m<firstList.Size())
+	{
+		List_entry x;
+		firstList.Retrieve(m, x);
+		tmp.Insert(i++, x);
+		m++;
+	}
+	
+	while (n<secondList.Size())
+	{
+		List_entry y;
+		secondList.Retrieve(n, y);
+		tmp.Insert(i++, y);
+		n++;
+	}
+	firstList = tmp;
+}

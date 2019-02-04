@@ -1,0 +1,57 @@
+﻿生成启动时间为 2014/7/11 16:07:46。
+     1>项目“D:\Visual C++ programs\MainUI\MainUI.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\MainUI.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MainUIDlg.cpp
+         MainUIDlg.cpp
+     1>d:\visual c++ programs\mainui\subinsert.h(77): warning C4520: “CSubInsert”: 指定了多个默认构造函数
+     1>d:\visual c++ programs\mainui\subtesttime.h(37): warning C4520: “CSubTestTime”: 指定了多个默认构造函数
+     1>d:\visual c++ programs\mainui\subreview.h(96): warning C4520: “CSubReview”: 指定了多个默认构造函数
+     1>d:\visual c++ programs\mainui\subdelete.h(42): warning C4520: “CSubDelete”: 指定了多个默认构造函数
+     1>d:\visual c++ programs\mainui\submodify.h(70): warning C4520: “CSubModify”: 指定了多个默认构造函数
+     1>d:\visual c++ programs\mainui\subchoose.h(30): warning C4520: “CSubChoose”: 指定了多个默认构造函数
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MainUI.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DlgProxy.cpp SubChoose.cpp SubDelete.cpp SubGetOnePic.cpp SubInsert.cpp SubMapChina.cpp SubMapECNU.cpp SubModify.cpp SubReview.cpp SubSearch.cpp SubTestTime.cpp
+         正在跳过...(未检测到相关更改)
+         SubTestTime.cpp
+         SubSearch.cpp
+         SubReview.cpp
+         SubModify.cpp
+         SubMapECNU.cpp
+         SubMapChina.cpp
+         SubInsert.cpp
+         SubGetOnePic.cpp
+         SubDelete.cpp
+         SubChoose.cpp
+         DlgProxy.cpp
+       Link:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Visual C++ programs\MainUI\Debug\MainUI.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\Visual C++ programs\MainUI\Debug\MainUI.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Visual C++ programs\MainUI\Debug\MainUI.lib" /MACHINE:X86 "Debug\Picture Manager.res"
+         Debug\MainUI.obj
+         Debug\MainUIDlg.obj
+         Debug\SubInsert.obj
+         Debug\DlgProxy.obj
+         Debug\Graph.obj
+         Debug\GraphLegend.obj
+         Debug\GraphSeries.obj
+         Debug\LinkList.obj
+         Debug\LocationGraph.obj
+         Debug\Node.obj
+         Debug\PdfJpeg.obj
+         Debug\PictureInfoList.obj
+         Debug\PictureRecord.obj
+         Debug\stdafx.obj
+         Debug\SubDelete.obj
+         Debug\SubMapECNU.obj
+         Debug\SubMapChina.obj
+         Debug\SubGetOnePic.obj
+         Debug\SubChoose.obj
+         Debug\SubModify.obj
+         Debug\SubSearch.obj
+         Debug\SubReview.obj
+         Debug\SubTestTime.obj
+         MainUI.vcxproj -> D:\Visual C++ programs\MainUI\Debug\MainUI.exe
+       RegisterOutput:
+         "D:\Visual C++ programs\MainUI\Debug\MainUI.exe" /RegServer
+     1>已完成生成项目“D:\Visual C++ programs\MainUI\MainUI.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.74

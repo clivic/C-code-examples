@@ -1,0 +1,36 @@
+﻿生成启动时间为 2015/4/20 17:58:42。
+     1>项目“F:\Visual C++ programs\suduc2\main.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>f:\visual c++ programs\suduc2\suduc.h(106): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\visual c++ programs\suduc2\main.cpp(17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>f:\visual c++ programs\suduc2\main.cpp(96): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\visual c++ programs\suduc2\main.cpp(102): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\visual c++ programs\suduc2\main.cpp(109): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\visual c++ programs\suduc2\main.cpp(116): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\visual c++ programs\suduc2\main.cpp(124): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\visual c++ programs\suduc2\main.cpp(128): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\visual c++ programs\suduc2\main.cpp(132): warning C4258: “j”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 f:\visual c++ programs\suduc2\main.cpp(128) : 忽略“j”的定义
+                 f:\visual c++ programs\suduc2\main.cpp(63) : 使用“j”的定义
+     1>f:\visual c++ programs\suduc2\main.cpp(132): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\visual c++ programs\suduc2\main.cpp(134): warning C4258: “j”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 f:\visual c++ programs\suduc2\main.cpp(128) : 忽略“j”的定义
+                 f:\visual c++ programs\suduc2\main.cpp(63) : 使用“j”的定义
+     1>f:\visual c++ programs\suduc2\main.cpp(136): warning C4258: “j”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 f:\visual c++ programs\suduc2\main.cpp(128) : 忽略“j”的定义
+                 f:\visual c++ programs\suduc2\main.cpp(63) : 使用“j”的定义
+     1>f:\visual c++ programs\suduc2\main.cpp(136): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\visual c++ programs\suduc2\main.cpp(138): warning C4258: “j”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 f:\visual c++ programs\suduc2\main.cpp(128) : 忽略“j”的定义
+                 f:\visual c++ programs\suduc2\main.cpp(63) : 使用“j”的定义
+       Link:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\main.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\main.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\main.lib" /MACHINE:X86 /SAFESEH .\Debug\main.obj
+         main.vcxproj -> F:\Visual C++ programs\suduc2\.\Debug\main.exe
+     1>已完成生成项目“F:\Visual C++ programs\suduc2\main.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.33

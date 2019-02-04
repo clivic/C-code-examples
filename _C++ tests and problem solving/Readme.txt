@@ -1,0 +1,1 @@
+These are the programs I wrote when I was learning C++, apart from the assignments. Some of them are exercises on a coding practice website.

@@ -1,0 +1,1 @@
+F:\Visual C++ programs\TrialFactoryMode\TrialFactoryMode\bin\Debug\TrialFactoryMode.exe.config

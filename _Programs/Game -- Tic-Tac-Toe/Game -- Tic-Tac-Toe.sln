@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game -- Tic-Tac-Toe", "Game -- Tic-Tac-Toe.vcxproj", "{C4C833C9-A3BC-479A-8749-EE93AF515795}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4C833C9-A3BC-479A-8749-EE93AF515795}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C4C833C9-A3BC-479A-8749-EE93AF515795}.Debug|Win32.Build.0 = Debug|Win32
+		{C4C833C9-A3BC-479A-8749-EE93AF515795}.Release|Win32.ActiveCfg = Release|Win32
+		{C4C833C9-A3BC-479A-8749-EE93AF515795}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

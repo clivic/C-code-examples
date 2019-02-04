@@ -1,0 +1,52 @@
+//*******************************************************************
+//	Key and Record's specification for Micro dictionary
+//	For this dictionary, the key is words string and the records 
+//	contain details like chinese translations etc.
+//	For specialization, the names of the classes are called 
+//	KeyWord and RecordWord.
+//*******************************************************************
+#ifndef KEYRECORD
+#define KEYRECORD
+#include "Linked_List.h"
+#include "String.h"
+
+class KeyWord
+{
+public:
+	static int comparisons;		//for test
+	KeyWord(String s = "");		//constructor
+	String GetKey() const;
+	char KeyLetter(int position) const;
+	void MakeBlank();			//for Hash Searching
+protected:
+	String key;
+};
+
+bool operator == (const KeyWord &key1, const KeyWord &key2);
+bool operator > (const KeyWord &key1, const KeyWord &key2);
+bool operator >= (const KeyWord &key1, const KeyWord &key2);
+bool operator != (const KeyWord &key1, const KeyWord &key2);
+bool operator < (const KeyWord &key1, const KeyWord &key2);
+bool operator <= (const KeyWord &key1, const KeyWord &key2);
+
+//*******************************************************************
+
+class RecordWord
+{
+public:
+	operator KeyWord();
+	int GetNum();
+	int GetFreqency();
+	String GetExplanation();
+	void WriteNum(const int& number);
+	void WriteWord(const KeyWord& word);
+	void WriteFrequency(const int& frequency);
+	void WriteExplanation(const String& explanation);
+private:
+	int number;
+	KeyWord word;
+	int frequency;
+	String explanation;
+
+};
+#endif

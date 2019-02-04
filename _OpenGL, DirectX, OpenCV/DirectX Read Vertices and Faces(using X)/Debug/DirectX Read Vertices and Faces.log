@@ -1,0 +1,19 @@
+﻿生成启动时间为 2014/11/20 19:23:18。
+     1>项目“D:\Visual C++ programs\DirectX Read Vertices and Faces\DirectX Read Vertices and Faces.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Visual C++ programs\DirectX Read Vertices and Faces\Debug\DirectX Read Vertices and Faces.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Visual C++ programs\DirectX Read Vertices and Faces\Debug\DirectX Read Vertices and Faces.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Meshes.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+     1>Meshes.obj : error LNK2028: 无法解析的标记(0A000096) "extern "C" long __stdcall D3DXLoadMeshFromXA(char const *,unsigned long,struct IDirect3DDevice9 *,struct ID3DXBuffer * *,struct ID3DXBuffer * *,struct ID3DXBuffer * *,unsigned long *,struct ID3DXMesh * *)" (?D3DXLoadMeshFromXA@@$$J232YGJPBDKPAUIDirect3DDevice9@@PAPAUID3DXBuffer@@22PAKPAPAUID3DXMesh@@@Z)，该标记在函数 "long __cdecl InitGeometry(void)" (?InitGeometry@@$$FYAJXZ) 中被引用
+     1>Meshes.obj : error LNK2028: 无法解析的标记(0A0000BA) "extern "C" struct IDirect3D9 * __stdcall Direct3DCreate9(unsigned int)" (?Direct3DCreate9@@$$J14YGPAUIDirect3D9@@I@Z)，该标记在函数 "long __cdecl InitD3D(struct HWND__ *)" (?InitD3D@@$$FYAJPAUHWND__@@@Z) 中被引用
+     1>Meshes.obj : error LNK2019: 无法解析的外部符号 "extern "C" struct IDirect3D9 * __stdcall Direct3DCreate9(unsigned int)" (?Direct3DCreate9@@$$J14YGPAUIDirect3D9@@I@Z)，该符号在函数 "long __cdecl InitD3D(struct HWND__ *)" (?InitD3D@@$$FYAJPAUHWND__@@@Z) 中被引用
+     1>Meshes.obj : error LNK2019: 无法解析的外部符号 "extern "C" long __stdcall D3DXLoadMeshFromXA(char const *,unsigned long,struct IDirect3DDevice9 *,struct ID3DXBuffer * *,struct ID3DXBuffer * *,struct ID3DXBuffer * *,unsigned long *,struct ID3DXMesh * *)" (?D3DXLoadMeshFromXA@@$$J232YGJPBDKPAUIDirect3DDevice9@@PAPAUID3DXBuffer@@22PAKPAPAUID3DXMesh@@@Z)，该符号在函数 "long __cdecl InitGeometry(void)" (?InitGeometry@@$$FYAJXZ) 中被引用
+     1>Meshes.obj : error LNK2019: 无法解析的外部符号 _timeGetTime@0，该符号在函数 "void __cdecl SetupMatrices(void)" (?SetupMatrices@@YAXXZ) 中被引用
+     1>Meshes.obj : error LNK2019: 无法解析的外部符号 _D3DXMatrixRotationY@8，该符号在函数 "void __cdecl SetupMatrices(void)" (?SetupMatrices@@YAXXZ) 中被引用
+     1>Meshes.obj : error LNK2019: 无法解析的外部符号 _D3DXMatrixLookAtLH@16，该符号在函数 "void __cdecl SetupMatrices(void)" (?SetupMatrices@@YAXXZ) 中被引用
+     1>Meshes.obj : error LNK2019: 无法解析的外部符号 _D3DXMatrixPerspectiveFovLH@20，该符号在函数 "void __cdecl SetupMatrices(void)" (?SetupMatrices@@YAXXZ) 中被引用
+     1>D:\Visual C++ programs\DirectX Read Vertices and Faces\Debug\DirectX Read Vertices and Faces.exe : fatal error LNK1120: 8 个无法解析的外部命令
+     1>已完成生成项目“D:\Visual C++ programs\DirectX Read Vertices and Faces\DirectX Read Vertices and Faces.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:09.05

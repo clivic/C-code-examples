@@ -1,0 +1,110 @@
+// PictureManager.idl : Picture Manager.exe 的類型程式庫來源
+
+// 這個檔案會由 MIDL 編譯器處理以產生
+// 類型程式庫 (PictureManager.tlb)。
+
+#include "olectl.h"
+[uuid(6B2098AE-FEFD-4D72-BC8F-A90C4D2EC946), version(1.0)]
+library PictureManager
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  CPictureManagerDoc 的主要分派介面
+	
+	[ uuid(1DBA136B-0F19-4980-B86E-C08CF6880407) ]
+	dispinterface IPictureManager
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  CPictureManagerDoc 的類別資訊
+	
+	[ uuid(9E4494A9-A9A1-461D-8B81-E1EB4739E618) ]
+	coclass PictureManager
+	{
+		[default] dispinterface IPictureManager;
+	};
+	//  SubSearchByName 的主调度接口
+		
+	[ uuid(06999DF4-A175-421B-BD02-B11743FDD4E4) ]
+	dispinterface ISubSearchByName
+	{
+		properties:
+		methods:
+	};
+
+	//  SubSearchByName 的类信息
+
+	[ uuid(13D80995-5805-44E9-8549-5AA1E647AA48) ]
+	coclass SubSearchByName
+	{
+		[default] dispinterface ISubSearchByName;
+	};
+	//  AddNewPic 的主调度接口
+		
+	[ uuid(2D222094-DF36-4F51-AE8C-50B3B78A0615) ]
+	dispinterface IAddNewPic
+	{
+		properties:
+		methods:
+	};
+
+	//  AddNewPic 的类信息
+
+	[ uuid(8E8006F3-B4B0-481E-8130-86096B9A98F7) ]
+	coclass AddNewPic
+	{
+		[default] dispinterface IAddNewPic;
+	};
+	//  SubGetOnePic 的主调度接口
+		
+	[ uuid(C6A05288-1BE8-4C9A-828E-54DB7B879E45) ]
+	dispinterface ISubGetOnePic
+	{
+		properties:
+		methods:
+	};
+
+	//  SubGetOnePic 的类信息
+
+	[ uuid(AA0DDC2C-CB69-4229-9AB7-227CE49F6FCC) ]
+	coclass SubGetOnePic
+	{
+		[default] dispinterface ISubGetOnePic;
+	};
+	//  SubFootprint 的主调度接口
+		
+	[ uuid(AD9EC178-95AC-4A49-B1F2-15DD03905F22) ]
+	dispinterface ISubFootprint
+	{
+		properties:
+		methods:
+	};
+
+	//  SubFootprint 的类信息
+
+	[ uuid(13F71C93-A6CD-48C1-91F3-175DD92A82B7) ]
+	coclass SubFootprint
+	{
+		[default] dispinterface ISubFootprint;
+	};
+	//  SubTestTime 的主调度接口
+		
+	[ uuid(7E9A95C9-DE8A-4B37-95D4-B217672A1365) ]
+	dispinterface ISubTestTime
+	{
+		properties:
+		methods:
+	};
+
+	//  SubTestTime 的类信息
+
+	[ uuid(D3A49992-F049-48A2-873C-1FCF98236084) ]
+	coclass SubTestTime
+	{
+		[default] dispinterface ISubTestTime;
+	};
+};

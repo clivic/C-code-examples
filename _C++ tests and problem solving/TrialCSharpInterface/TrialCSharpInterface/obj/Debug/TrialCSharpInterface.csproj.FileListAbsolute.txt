@@ -1,0 +1,9 @@
+F:\Visual C++ programs\TrialCSharpInterface\TrialCSharpInterface\bin\Debug\TrialCSharpInterface.exe.config
+F:\Visual C++ programs\TrialCSharpInterface\TrialCSharpInterface\obj\Debug\TrialCSharpInterface.csprojResolveAssemblyReference.cache
+F:\Visual C++ programs\TrialCSharpInterface\TrialCSharpInterface\obj\Debug\TrialCSharpInterface.Form1.resources
+F:\Visual C++ programs\TrialCSharpInterface\TrialCSharpInterface\obj\Debug\TrialCSharpInterface.Properties.Resources.resources
+F:\Visual C++ programs\TrialCSharpInterface\TrialCSharpInterface\obj\Debug\TrialCSharpInterface.csproj.GenerateResource.Cache
+F:\Visual C++ programs\TrialCSharpInterface\TrialCSharpInterface\bin\Debug\TrialCSharpInterface.exe
+F:\Visual C++ programs\TrialCSharpInterface\TrialCSharpInterface\bin\Debug\TrialCSharpInterface.pdb
+F:\Visual C++ programs\TrialCSharpInterface\TrialCSharpInterface\obj\Debug\TrialCSharpInterface.exe
+F:\Visual C++ programs\TrialCSharpInterface\TrialCSharpInterface\obj\Debug\TrialCSharpInterface.pdb

@@ -1,0 +1,30 @@
+1,127#01.jpg,350,220,18,1404121369,上海外滩,WaiTan,中国,上海,null,null,Clivic.T.R
+2,127#02.jpg,400,300,23,1404121369,上海陆家嘴,LuJiaZui,中国,上海,null,null,Clivic.T.R
+3,127#03.jpg,400,300,29,1404121369,苏州巷1,SuZhou1,中国,杭州,null,null,Clivic.T.R
+4,127#04.jpg,309,220,15,1404121369,苏州巷2,SuZhou2,中国,杭州,null,null,Clivic.T.R
+5,127#05.jpg,333,220,12,1404121369,南通夜景,NanTongNight,中国,杭州,null,null,Clivic.T.R
+6,127#06.jpg,545,300,24,1404121369,苏州巷夜景,SuZhou Night,中国,杭州,null,null,Clivic.T.R
+7,127#07.jpg,617,300,41,1404121369,南通园艺博览园,NanTong Night,中国,杭州,null,null,Clivic.T.R
+8,127#08.jpg,461,300,17,1404121370,南通狼山,Wolf Mountain,中国,杭州,null,null,Clivic.T.R
+9,127#09.jpg,450,300,22,1404121370,西安古塔,Ancient Tower ,中国,西安,null,null,Clivic.T.R
+10,127#10.jpg,330,220,23,1404121370,西安立交桥,modern bridge,中国,西安,null,null,Clivic.T.R
+11,127#11.jpg,450,300,19,1404121370,西安古城楼夜景,ancient city tower,中国,西安,null,null,Clivic.T.R
+12,127#12.jpg,400,265,22,1404121370,上海嘉定新城地铁站,JiaDing Metro Station,中国,上海,null,null,Clivic.T.R
+13,127#13.jpg,539,300,27,1404121370,上海嘉定新城,JiaDing,中国,上海,null,null,Clivic.T.R
+14,127#14.jpg,479,300,25,1404121370,上海华师大文史楼1,Wen Shi building1,华师大,文史楼,中国,上海,Clivic.T.R
+15,127#15.jpg,400,300,26,1404121370,上海华师大共青场1,playground1,华师大,共青场,中国,上海,Clivic.T.R
+16,127#16.jpg,300,300,21,1404121370,上海华师大大门,ECNU Gate,华师大,体育馆,中国,上海,Clivic.T.R
+17,127#17.jpg,401,300,31,1404121370,上海华师大物理楼1,physics building1,华师大,物理楼,中国,上海,Clivic.T.R
+18,127#18.jpg,451,300,28,1404121370,上海纽大本部(华师大内),NYU building,华师大,毛像,中国,上海,Clivic.T.R
+19,127#19.jpg,363,300,15,1404121370,上海华师大文史楼2,Wen Shi building2,华师大,文史楼,中国,上海,Clivic.T.R
+20,127#20.jpg,400,300,16,1404121370,上海华师大河口海岸大楼,He Kou Hai An building,华师大,河口所大楼,中国,上海,Clivic.T.R
+21,127#21.jpg,640,480,148,1404121370,上海华师大校训碑,ECNU Fame Stone,华师大,毛像,中国,上海,Clivic.T.R
+22,127#22.jpg,640,480,147,1404121370,上海华师大理科大楼,Science building,华师大,理科楼,中国,上海,Clivic.T.R
+23,127#23.jpg,640,480,160,1404121370,上海华师大共青场2,playground2,华师大,共青场,中国,上海,Clivic.T.R
+24,127#24.jpg,640,480,151,1404121370,上海华师大物理楼2,physics building2,华师大,物理楼,中国,上海,Clivic.T.R
+25,127#25.jpg,450,300,31,1404121370,上海交大大门,SJTU Gate,中国,上海,null,null,Clivic.T.R
+26,127#26.jpg,640,480,132,1404121370,上海华师大计算机楼,computer building,华师大,计算机楼,中国,上海,Clivic.T.R
+27,127#27.jpg,400,300,34,1404121370,上海交大老图书馆,SJTU old liabrary,中国,上海,null,null,Clivic.T.R
+28,127#28.jpg,417,300,22,1404121370,复旦大学正门,FDU Gate,中国,上海,null,null,Clivic.T.R
+29,127#29.jpg,405,300,30,1404121369,复旦大学草坪,grass ground,中国,上海,null,null,Clivic.T.R
+30,127#30.jpg,451,300,26,1404121369,同济大学正门,TJU Gate,中国,上海,null,null,Clivic.T.R

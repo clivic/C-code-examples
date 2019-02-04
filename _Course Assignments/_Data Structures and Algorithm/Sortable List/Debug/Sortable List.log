@@ -1,0 +1,38 @@
+﻿生成启动时间为 2014/5/31 19:34:22。
+     1>项目“D:\Visual C++ programs\Sortable List\Sortable List.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Sortable_List_Char.cpp client.cpp
+         client.cpp
+     1>d:\visual c++ programs\sortable list\client.cpp(18): error C2065: “Record”: 未声明的标识符
+     1>d:\visual c++ programs\sortable list\client.cpp(18): error C2065: “x”: 未声明的标识符
+     1>d:\visual c++ programs\sortable list\client.cpp(19): error C2448: “Print”: 函数样式初始值设定项类似函数定义
+     1>d:\visual c++ programs\sortable list\client.cpp(30): error C2065: “testType”: 未声明的标识符
+     1>d:\visual c++ programs\sortable list\client.cpp(30): error C2146: 语法错误: 缺少“;”(在标识符“state”的前面)
+     1>d:\visual c++ programs\sortable list\client.cpp(30): error C2065: “state”: 未声明的标识符
+     1>d:\visual c++ programs\sortable list\client.cpp(30): warning C4138: 在注释外找到“*/”
+     1>d:\visual c++ programs\sortable list\client.cpp(30): error C2059: 语法错误:“/”
+     1>d:\visual c++ programs\sortable list\client.cpp(39): error C2065: “state”: 未声明的标识符
+     1>d:\visual c++ programs\sortable list\client.cpp(40): error C2065: “state”: 未声明的标识符
+     1>d:\visual c++ programs\sortable list\client.cpp(40): error C2050: switch 表达式不是整型
+         正在生成代码...
+         正在编译...
+         Sortable_List_Char.cpp
+     1>d:\visual c++ programs\sortable list\sortable_list_char.cpp(7): error C2653: “Key”: 不是类或命名空间名称
+     1>d:\visual c++ programs\sortable list\sortable_list_char.cpp(8): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>d:\visual c++ programs\sortable list\sortable_list_char.cpp(10): error C2065: “str”: 未声明的标识符
+     1>d:\visual c++ programs\sortable list\sortable_list_char.cpp(11): warning C4508: “Key”: 函数应返回一个值；假定“void”返回类型
+     1>d:\visual c++ programs\sortable list\sortable_list_char.cpp(13): error C2653: “Key”: 不是类或命名空间名称
+     1>d:\visual c++ programs\sortable list\sortable_list_char.cpp(15): error C2270: “GetKey”: 非成员函数上不允许修饰符
+     1>d:\visual c++ programs\sortable list\sortable_list_char.cpp(16): error C2065: “str”: 未声明的标识符
+     1>d:\visual c++ programs\sortable list\sortable_list_char.cpp(21): error C2653: “Record”: 不是类或命名空间名称
+     1>d:\visual c++ programs\sortable list\sortable_list_char.cpp(22): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>d:\visual c++ programs\sortable list\sortable_list_char.cpp(24): error C2065: “str”: 未声明的标识符
+     1>d:\visual c++ programs\sortable list\sortable_list_char.cpp(26): warning C4508: “Record”: 函数应返回一个值；假定“void”返回类型
+     1>d:\visual c++ programs\sortable list\sortable_list_char.cpp(28): error C2653: “Record”: 不是类或命名空间名称
+     1>d:\visual c++ programs\sortable list\sortable_list_char.cpp(28): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
+         正在生成代码...
+     1>已完成生成项目“D:\Visual C++ programs\Sortable List\Sortable List.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:08.98

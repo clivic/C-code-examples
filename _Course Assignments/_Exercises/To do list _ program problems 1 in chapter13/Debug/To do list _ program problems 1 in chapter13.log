@@ -1,0 +1,69 @@
+﻿生成启动时间为 2013/12/12 7:59:50。
+     1>项目“D:\Visual C++ programs\To do list _ program problems 1 in chapter13\To do list _ program problems 1 in chapter13.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\List ADT(some exercises in Chapter 13)\list.cpp" "To_do list.cpp"
+         To_do list.cpp
+     1>d:\visual c++ programs\to do list _ program problems 1 in chapter13\to_do list.cpp(6): fatal error C1083: 无法打开包括文件: “list.h”: No such file or directory
+         list.cpp
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.h(7): error C2146: 语法错误: 缺少“;”(在标识符“DataType”的前面)
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.h(7): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.h(31): error C2061: 语法错误: 标识符“DataType”
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.h(39): error C2061: 语法错误: 标识符“DataType”
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.h(47): error C2061: 语法错误: 标识符“DataType”
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.h(61): error C2146: 语法错误: 缺少“;”(在标识符“Next”的前面)
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.h(61): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.h(61): warning C4183: “Next”:  缺少返回类型；假定为返回“int”的成员函数
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.h(68): error C2061: 语法错误: 标识符“DataType”
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.h(76): error C2061: 语法错误: 标识符“DataType”
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.h(89): error C2146: 语法错误: 缺少“;”(在标识符“data”的前面)
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.h(89): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(55): error C2146: 语法错误: 缺少“)”(在标识符“item”的前面)
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(55): error C2761: “void List::Insert(void)”: 不允许成员函数重新声明
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(55): error C2059: 语法错误:“)”
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(61): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(61): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(71): error C2146: 语法错误: 缺少“)”(在标识符“item”的前面)
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(71): error C2761: “void List::Delete(void)”: 不允许成员函数重新声明
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(71): error C2059: 语法错误:“)”
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(78): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(78): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(95): error C2146: 语法错误: 缺少“)”(在标识符“item”的前面)
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(95): error C2761: “bool List::IsPresent(void) const”: 不允许成员函数重新声明
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(95): error C2059: 语法错误:“)”
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(99): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(99): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(115): error C2146: 语法错误: 缺少“;”(在标识符“temp”的前面)
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(115): error C2065: “temp”: 未声明的标识符
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(128): error C2065: “data”: 未声明的标识符
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(132): error C2065: “temp”: 未声明的标识符
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(132): error C2065: “data”: 未声明的标识符
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(133): error C2065: “data”: 未声明的标识符
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(134): error C2065: “data”: 未声明的标识符
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(134): error C2065: “temp”: 未声明的标识符
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(148): error C2143: 语法错误 : 缺少“;”(在“List::Next”的前面)
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(148): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(148): error C2086: “int DataType”: 重定义
+                 d:\visual c++ programs\list adt(some exercises in chapter 13)\list.h(7) : 参见“DataType”的声明
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(153): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(154): error C2146: 语法错误: 缺少“;”(在标识符“item”的前面)
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(154): error C2065: “item”: 未声明的标识符
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(155): error C2065: “item”: 未声明的标识符
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(155): error C2065: “data”: 未声明的标识符
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(162): error C2065: “item”: 未声明的标识符
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(167): error C2146: 语法错误: 缺少“)”(在标识符“item”的前面)
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(167): error C2761: “void List::InsertOnce(void)”: 不允许成员函数重新声明
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(167): error C2059: 语法错误:“)”
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(173): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(173): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(183): error C2146: 语法错误: 缺少“)”(在标识符“oldItem”的前面)
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(183): error C2761: “void List::Replace(void)”: 不允许成员函数重新声明
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(184): error C2059: 语法错误:“)”
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(187): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(187): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>d:\visual c++ programs\list adt(some exercises in chapter 13)\list.cpp(206): error C2065: “data”: 未声明的标识符
+         正在生成代码...
+     1>已完成生成项目“D:\Visual C++ programs\To do list _ program problems 1 in chapter13\To do list _ program problems 1 in chapter13.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:06.00

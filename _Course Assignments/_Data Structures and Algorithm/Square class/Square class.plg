@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Square class - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSP394A.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Square class.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Visual C++ programs\Square class\Square class Implementation.cpp"
+]
+Creating command line "cl.exe @C:\Users\Lenovo\AppData\Local\Temp\RSP394A.tmp" 
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSP395A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Square class.pdb" /debug /machine:I386 /out:"Debug/Square class.exe" /pdbtype:sept 
+".\Debug\client.obj"
+".\Debug\Square class Implementation.obj"
+]
+Creating command line "link.exe @C:\Users\Lenovo\AppData\Local\Temp\RSP395A.tmp"
+<h3>Output Window</h3>
+Compiling...
+Square class Implementation.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Square class.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,8 @@
+F:\Visual C++ programs\TrialObserverMode\TrialObserverMode\bin\Debug\TrialObserverMode.exe.config
+F:\Visual C++ programs\TrialObserverMode\TrialObserverMode\bin\Debug\TrialObserverMode.exe
+F:\Visual C++ programs\TrialObserverMode\TrialObserverMode\bin\Debug\TrialObserverMode.pdb
+F:\Visual C++ programs\TrialObserverMode\TrialObserverMode\obj\Debug\TrialObserverMode.csprojResolveAssemblyReference.cache
+F:\Visual C++ programs\TrialObserverMode\TrialObserverMode\obj\Debug\TrialObserverMode.Properties.Resources.resources
+F:\Visual C++ programs\TrialObserverMode\TrialObserverMode\obj\Debug\TrialObserverMode.csproj.GenerateResource.Cache
+F:\Visual C++ programs\TrialObserverMode\TrialObserverMode\obj\Debug\TrialObserverMode.exe
+F:\Visual C++ programs\TrialObserverMode\TrialObserverMode\obj\Debug\TrialObserverMode.pdb

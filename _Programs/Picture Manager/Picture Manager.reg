@@ -1,0 +1,17 @@
+REGEDIT
+; 您的安裝程式會使用此 .REG 檔。
+; 如果無法使用安裝程式，會使用對 CWinApp::RegisterShellFileTypes 
+; 與 COleObjectFactory::UpdateRegistryAll 的呼叫，
+; 自動在您的 InitInstance 中登錄下列項目。
+
+
+HKEY_CLASSES_ROOT\PictureManager.Application = PictureManager Application
+
+
+HKEY_CLASSES_ROOT\PictureManager.Application\CLSID = {9E4494A9-A9A1-461D-8B81-E1EB4739E618}
+
+HKEY_CLASSES_ROOT\CLSID\{9E4494A9-A9A1-461D-8B81-E1EB4739E618} = PictureManager Application
+HKEY_CLASSES_ROOT\CLSID\{9E4494A9-A9A1-461D-8B81-E1EB4739E618}\ProgId = PictureManager.Application
+
+
+HKEY_CLASSES_ROOT\CLSID\{9E4494A9-A9A1-461D-8B81-E1EB4739E618}\LocalServer32 = Picture Manager.EXE

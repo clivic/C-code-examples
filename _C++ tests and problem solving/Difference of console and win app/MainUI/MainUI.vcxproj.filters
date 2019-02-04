@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DlgProxy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureRecord.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexRecord.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LocationGraph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureInfoList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PdfJpeg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SubGetOnePic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphLegend.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphSeries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SubTestTime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SubModify.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainUIDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SubInsert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SubDelete.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SubMapECNU.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SubMapChina.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SubChoose.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SubSearch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SubReview.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DlgProxy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureRecord.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LocationGraph.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureInfoList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PdfJpeg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SubGetOnePic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphLegend.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphSeries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SubTestTime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SubModify.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUIDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SubInsert.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SubDelete.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SubMapECNU.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SubMapChina.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SubChoose.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SubSearch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SubReview.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="PictureManager.idl">
+      <Filter>源文件</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Picture Manager.reg" />
+    <None Include="res\PictureManager.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Picture Manager.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Picture Manager.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="maps\ECNU.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="maps\People%27s Rupublic of China.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Aperture Science little1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Aperture Science little2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Aperture Science.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="maps\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="maps\PRChina.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="maps\APERTURE SCIENCE BAR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="maps\APERTURE SCIENCE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="maps\Picture Manager.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Picture Manager.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Umberella Corporation.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\MFC.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="MainUI.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="maps\MainUI.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

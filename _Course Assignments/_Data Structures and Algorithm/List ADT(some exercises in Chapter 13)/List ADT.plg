@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: List ADT - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSP27B8.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/List ADT.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Visual C++ programs\List ADT(some exercises in Chapter 13)\list.cpp"
+]
+Creating command line "cl.exe @C:\Users\Lenovo\AppData\Local\Temp\RSP27B8.tmp" 
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSP27B9.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/List ADT.pdb" /debug /machine:I386 /out:"Debug/List ADT.exe" /pdbtype:sept 
+".\Debug\client.obj"
+".\Debug\list.obj"
+]
+Creating command line "link.exe @C:\Users\Lenovo\AppData\Local\Temp\RSP27B9.tmp"
+<h3>Output Window</h3>
+Compiling...
+list.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+List ADT.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

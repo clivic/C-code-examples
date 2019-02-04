@@ -1,0 +1,19 @@
+template <class List_entry>
+void SortableList<List_entry>::InsertionSort()
+{
+	int firstUnsorted;	// position of first unsorted entry
+	int position;		// searches sorted part of list
+	List_entry current;	// holds the entry temporarily removed from list
+	for (firstUnsorted = 1; firstUnsorted < count; firstUnsorted++)
+		if (entry[firstUnsorted] < entry[firstUnsorted - 1])
+		{
+			current = entry[firstUnsorted];	// Pull unsorted entry out of the list
+			position = firstUnsorted;
+			do
+			{
+				entry[position] = entry[position - 1];
+				position--;
+			} while (position > 0 && current < entry[position - 1]);
+			entry[position] = current;
+		}
+}

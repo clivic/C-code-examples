@@ -1,0 +1,16 @@
+﻿生成启动时间为 2014/3/21 11:34:59。
+     1>项目“D:\Visual C++ programs\中旭波蘭式\中旭波蘭式.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\visual c++ programs\中旭波蘭式\main.cpp(17): warning C4101: “j”: 未引用的局部变量
+       Link:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Visual C++ programs\中旭波蘭式\Debug\中旭波蘭式.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Visual C++ programs\中旭波蘭式\Debug\中旭波蘭式.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Visual C++ programs\中旭波蘭式\Debug\中旭波蘭式.lib" /MACHINE:X86 Debug\utility.obj
+         Debug\getop.obj
+         Debug\main.obj
+         中旭波蘭式.vcxproj -> D:\Visual C++ programs\中旭波蘭式\Debug\中旭波蘭式.exe
+     1>已完成生成项目“D:\Visual C++ programs\中旭波蘭式\中旭波蘭式.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.21

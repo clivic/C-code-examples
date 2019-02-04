@@ -1,0 +1,9 @@
+F:\Visual C++ programs\Welcome\Welcome\bin\Debug\Welcome.exe.config
+F:\Visual C++ programs\Welcome\Welcome\bin\Debug\Welcome.exe
+F:\Visual C++ programs\Welcome\Welcome\bin\Debug\Welcome.pdb
+F:\Visual C++ programs\Welcome\Welcome\obj\Debug\Welcome.csprojResolveAssemblyReference.cache
+F:\Visual C++ programs\Welcome\Welcome\obj\Debug\Welcome.Form1.resources
+F:\Visual C++ programs\Welcome\Welcome\obj\Debug\Welcome.Properties.Resources.resources
+F:\Visual C++ programs\Welcome\Welcome\obj\Debug\Welcome.csproj.GenerateResource.Cache
+F:\Visual C++ programs\Welcome\Welcome\obj\Debug\Welcome.exe
+F:\Visual C++ programs\Welcome\Welcome\obj\Debug\Welcome.pdb

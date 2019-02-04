@@ -1,0 +1,175 @@
+bool DoCommand(char command, List<Record> &list, HashTable &hashTable, bool &searchState, bool &storageState)
+//	Pre:	command is valid.
+//	Post:	do according to the command, and return false unless 
+//			command is 'Q' or 'q'.
+{
+	bool found = false;	//whether the substring is found in fuzzy searching.
+	bool testState;		//if 1, give time of one search; 
+						//else, give time of searching all the words.
+	String word, fuzzyWord, epl;
+	int position, size;
+	double wholeTime;	//for time test of searching all the words
+	Record target;
+	Error_code result;
+	switch (command)
+	{
+	case 'A':
+		searchState = 1;
+		cout << "Now accurate searching.\n" << endl;
+		break;
+
+	case 'F':
+		searchState = 0;
+		cout << "Now fuzzy searching.\n" << endl;
+		break;
+
+	case 'S':
+		cout << "Please input the word you wanna find: " << flush;
+		cin.clear();
+		cin.sync();
+		Cin(word);
+		if (searchState)	//accurate searching
+		{
+			if (SequentialSearch(list, word, position) == not_present)
+				clog << "Not found." << endl;
+			else
+			{
+				list.Retrieve(position, target);
+				target.WriteFrequency(target.GetFreqency() + 1);
+				list.Replace(position, target);			//add frequency
+				cout << "Word: " << word << endl;
+				cout << "Explanation: " << target.GetExplanation() << endl << endl;
+			}
+		}
+
+		else		//fuzzy searching
+		{
+			int size = list.Size();
+			for (position = 0; position < size; position++)
+			{
+				list.Retrieve(position, target);
+				fuzzyWord = ((Key)target).GetKey();
+				if ((Strstr(fuzzyWord, word) >= 0))
+				{
+					target.WriteFrequency(target.GetFreqency() + 1);
+					list.Replace(position, target);			//add frequency
+					printf("Word found: %s\n", fuzzyWord);
+					printf("Explanation: %s\n\n", target.GetExplanation());
+					/*cout << "Word found: " << fuzzyWord << endl;
+					cout << "Explanation: " << target.GetExplanation() << endl << endl;*/
+					found = true;
+				}
+			}
+			if (!found)	clog << "Not found.\n" << endl;
+		}
+		break;
+
+	case 'H':
+		Instruction();
+		break;
+
+	case 'T':
+		cout << "Please input the way you want to test,\n"
+			<< "if 0, give time of searching all the words,\n"
+			<< "else, give time of one search: " << flush;
+		Cin(testState);
+
+		if (testState)
+		{
+			cout << "Please input the word you wanna find: " << flush;
+			cin.clear();
+			cin.sync();
+			Cin(word);
+			QueryPerformanceFrequency(&frequ);
+			QueryPerformanceCounter(&start);
+			//result = SequentialSearch(list, word, position);
+			//result = BinarySearch(list, word, position);
+			result = HashSearch(hashTable, word, target);
+			QueryPerformanceCounter(&over);
+			cout << "time: " << (over.QuadPart - start.QuadPart) / (double)frequ.QuadPart << "(s)." << endl;
+			cout << "collide time: " << hashTable.GetCollideTime() << endl;	//for Hash Search
+			if (result != success)	cout << "Not found.\n" << endl;
+			else					cout << "found.\n" << endl;
+		}
+		else
+		{
+			QueryPerformanceFrequency(&frequ);
+			size = list.Size();
+			wholeTime = 0.0;
+			for (int i = 0; i < size; i++)
+			{
+				list.Retrieve(i, target);
+				word = ((Key)target).GetKey();
+
+				//one time test
+				QueryPerformanceCounter(&start);
+				//SequentialSearch(list, word, position);
+				//BinarySearch(list, word, position);
+				HashSearch(hashTable, word, target);
+				QueryPerformanceCounter(&over);
+				wholeTime += (over.QuadPart - start.QuadPart) / (double)frequ.QuadPart;
+			}
+			cout << "time: " << wholeTime << "(s).\n" << endl;
+			cout << "collide time: " << hashTable.GetCollideTime() << endl;
+
+		}
+		break;
+
+	case 'P':
+		PrintVolcabulary(list);
+		printf("\n");
+		break;
+
+	case 'N':
+		cout << "Please input the new word you want to append: " << flush;
+		cin.clear();
+		cin.sync();
+		Cin(word);
+		cout << "Then please input its Chinese meaning in this format:\n"
+			<< "<word type>.<Chiniese meaning>;<Chiniese meaning>...<blank><word type>...\n"
+			<< "Meaning: " << flush;
+		Cin(epl);
+		size = list.Size();
+		target.WriteWord(word);
+		target.WriteExplanation(epl);
+		target.WriteNum(size + 1);
+		target.WriteFrequency(0);
+		list.Insert(size, target);
+		cout << "The word " << ((Key)target).GetKey()
+			<< " \"" <<  target.GetExplanation() << "\" has been appended successfully!\n"
+			<< endl;
+		
+		//modify the CERT4 to save the modification
+		//fout << size << ',' << word << ',' << 0 << ",\"" << epl << '\"' << endl;
+		break;
+
+	case 'D':
+		cout << "Please input the word£¨note that you can't delete core words) you want to delete: " << flush;
+		cin.clear();
+		cin.sync();
+		Cin(word);
+		SequentialSearch(list, word, position);
+		list.Retrieve(position, target);
+		if (position <= 4504 - 1)
+			cout << "Sorry you can't delete core words.\n" << endl;
+		else
+		{
+			cout << "Is it the word:\n"
+				<< ((Key)target).GetKey() << ' '
+				<< '\"' << target.GetExplanation() << "\"? " << flush;
+			if (UserSayYes())	//can't delete core words
+			{
+				list.Remove(position, target);
+				cout << "Now it has been deleted." << endl;
+
+			}
+		}
+		break;
+
+	case 'Q':
+		return false;
+		break;
+		
+	}
+	return true;
+}

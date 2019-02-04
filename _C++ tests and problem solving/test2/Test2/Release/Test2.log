@@ -1,0 +1,6 @@
+﻿  Test2.cpp
+Test2.cpp(5): error C2871: 'sf': a namespace with this name does not exist
+Test2.cpp(9): error C2065: 'RenderWindow': undeclared identifier
+Test2.cpp(9): error C2146: syntax error: missing ';' before identifier 'window'
+Test2.cpp(9): error C3861: 'VideoMode': identifier not found
+Test2.cpp(9): error C3861: 'window': identifier not found

@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: A test of char plus char - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSPF7E4.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/A test of char plus char.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Visual C++ programs\A test of char plus char\main.cpp"
+]
+Creating command line "cl.exe @C:\Users\Lenovo\AppData\Local\Temp\RSPF7E4.tmp" 
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSPF7E5.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/A test of char plus char.pdb" /debug /machine:I386 /out:"Debug/A test of char plus char.exe" /pdbtype:sept 
+".\Debug\main.obj"
+]
+Creating command line "link.exe @C:\Users\Lenovo\AppData\Local\Temp\RSPF7E5.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+D:\Visual C++ programs\A test of char plus char\main.cpp(17) : warning C4305: 'argument' : truncation from 'const int' to 'char'
+D:\Visual C++ programs\A test of char plus char\main.cpp(17) : warning C4309: 'argument' : truncation of constant value
+D:\Visual C++ programs\A test of char plus char\main.cpp(29) : error C2440: '=' : cannot convert from 'char [2]' to 'int'
+        This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+A test of char plus char.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

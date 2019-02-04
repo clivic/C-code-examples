@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Stack class - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSP1D4A.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Stack class.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Visual C++ programs\Stack class\PorlandCalulation.cpp"
+]
+Creating command line "cl.exe @C:\Users\Lenovo\AppData\Local\Temp\RSP1D4A.tmp" 
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSP1D5B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Stack class.pdb" /debug /machine:I386 /out:"Debug/Stack class.exe" /pdbtype:sept 
+".\Debug\client.obj"
+".\Debug\Stack.obj"
+".\Debug\utility.obj"
+".\Debug\PorlandCalulation.obj"
+]
+Creating command line "link.exe @C:\Users\Lenovo\AppData\Local\Temp\RSP1D5B.tmp"
+<h3>Output Window</h3>
+Compiling...
+PorlandCalulation.cpp
+Linking...
+PorlandCalulation.obj : error LNK2001: unresolved external symbol "public: enum Error_code __thiscall Stack<double>::pop(void)" (?pop@?$Stack@N@@QAE?AW4Error_code@@XZ)
+PorlandCalulation.obj : error LNK2001: unresolved external symbol "public: enum Error_code __thiscall Stack<double>::top(double &)const " (?top@?$Stack@N@@QBE?AW4Error_code@@AAN@Z)
+PorlandCalulation.obj : error LNK2001: unresolved external symbol "public: enum Error_code __thiscall Stack<double>::push(double const &)" (?push@?$Stack@N@@QAE?AW4Error_code@@ABN@Z)
+Debug/Stack class.exe : fatal error LNK1120: 3 unresolved externals
+Ö´ÐÐ link.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+Stack class.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
